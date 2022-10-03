@@ -1,0 +1,78 @@
+1. Write a C++ program to find the largest element of a given array of integers. Go to the editor
+Click me to see the sample solutionl
+2. Write a C++ program to find the largest three elements in an array. Go to the editor
+Click me to see the sample solution
+3. Write a C++ program to find second largest element in a given array of integers. Go to the editor
+Click me to see the sample solution
+4. Write a C++ program to find k largest elements in a given array of integers. Go to the editor
+Click me to see the sample solution
+5. Write a C++ program to find the second smallest elements in a given array of integers. Go to the
+editor
+Click me to see the sample solution
+6. Write a C++ program to find all elements in array of integers which have at-least two greater
+elements. Go to the editor
+Click me to see the sample solution
+7. Write a C++ program to find the most occurring element in an array of integers. Go to the editor
+Click me to see the sample solution
+8. Write a C++ program to find the next greater element of every element of a given array of integers.
+Ignore those elements which have no greater element. Go to the editor
+9. Write a C++ program to sort a given unsorted array of integers, in wave form. Go to the editor
+Note: An array is in wave form when array[0] >= array[l] <= array[2] >= array[3] <= array[4] >= .
+Click me to see the sample solution
+10. Write a C++ program to find the smallest element missing in a sorted array. Go to the editor
+Click me to see the sample solution
+11. Write a C++ program to update every array element by multiplication of next and previous values of
+a given array of integers. Go to the editor
+Click me to see the sample solution
+12. Write a C++ program to rearrange the elements of a given array of integers in zig-zag fashion way.
+Go to the editor
+Note: The format zig-zag array in form a < b > c < d > e < f.
+Click me to see the sample solution
+13. Write a C++ program to separate even and odd numbers of an array of integers. Put all even
+numbers first, and then odd numbers. Go to the editor
+Click me to see the sample solution
+14. Write a C++ program to separate Os and Is from a given array of values 0 and 1. Go to the editor
+Click me to see the sample solution
+15. Write a C++ program to rearrange a given sorted array of positive integers . Go to the editor
+Note: In final array, first element should be maximum value, second minimum value, third second
+maximum value , fourth second minimum value, fifth third maximum and so on.
+16. Write a C++ program to sort a given array of Os, Is and 2s. In the final array put all Os first, then all
+Is and all 2s in last. Go to the editor
+Click me to see the sample solution
+17. Write a C++ program to sort (in descending order) an array of distinct elements according to
+absolute difference of array elements and with a given value. Go to the editor
+Click me to see the sample solution
+18. Write a C++ program to move all negative elements of an array of integers to the end of the array
+without changing the order of positive element and negative element. Go to the editor
+Click me to see the sample solution
+19. Write a C++ program to find a number which occurs odd number of times of a given array of positive
+integers. In the said array all numbers occur even number of times. Go to the editor
+Click me to see the sample solution
+20. Write a C++ program to count the number of occurrences of given number in a sorted array of
+integers. Go to the editor
+Click me to see the sample solution
+21. Write a C++ program to find the two repeating elements in a given array of integers. Go to the editor
+Click me to see the sample solution
+22. Write a C++ program to find the missing element from two given arrays of integers except one
+element.
+Go to the editor
+23. Write a C++ program to find the element that appears once in an array of integers and every other
+element appears twice. Go to the editor
+Click me to see the sample solution
+24. Write a C++ program to find the first repeating element in an array of integers. Go to the editor
+Click me to see the sample solution
+25. Write a C++ program to find and print all common elements in three sorted arrays of integers. Go to
+the editor
+Click me to see the sample solution
+26. Write a C++ program to find and print all unique elements of a given array of integers. Go to the
+editor
+Click me to see the sample solution
+27. Write a C++ program to find the number of pairs of integers in a given array of integers whose sum
+is equal to a specified number. Go to the editor
+Click me to see the sample solution
+28. Write a C++ program to arrange the numbers of a given array in a way that the sum of some
+numbers equal the largest number in the array. Go to the editor
+Click me to see the sample solution
+29. Write a C++ program to find the second lowest and highest numbers in a given array. Go to the
+editor
+Click me to see the sample solution
