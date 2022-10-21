@@ -13,9 +13,9 @@ int main(){
         stack.push(i);
     }
     
-    while(!stack.empty()){
+    do {
         cout<<stack.top()<<" "<<endl;
-    }
+    }while(!stack.empty());
 
     if(stack.empty()==true){cout<<"Stack is empty";}
     else {cout<<"Stack has some data";}

@@ -12,31 +12,28 @@ int main(){
     for(int i=0;i<=n-1;i++){
         cin>>Arr[i];
     }
-    cout<<"No Bug1";
 
     //finding largest element in the array
     int largest=0;
     for(int i=0;i<=n-1;i++){
-        cout<<"No Bug2";
         for (int j=n;j>=i;j++){
-            cout<<"No Bug3";
             if (Arr[i]>=Arr[j]){
-                largest=Arr[i];cout<<"No Bug4";
+                largest=Arr[i];
             }
             else if (Arr[i]<=Arr[j]) {
-                largest=Arr[j];cout<<"No Bug44";
+                largest=Arr[j];
             }
         }
     }
-cout<<"No Bug";
+
 
     
     cout<<"Elements in the array are- "<<endl;
     for (int i=0;i<=n-1;i++){
-        cout<<Arr[i]<<endl;cout<<"No Bug5";
+        cout<<Arr[i]<<endl;
     }
-cout<<"No Bug";
+
 
     cout<<"Largest Element in Array is- "<<largest<<endl;
-    cout<<"No Bug";
+    return 0;
 }
