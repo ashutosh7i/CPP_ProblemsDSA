@@ -1,26 +1,28 @@
+//Comment Here Chad😂😉
 #include<iostream>
 #include<stack>
 using namespace std;
-int main(){
 
-    //stack using STL
-    //declaring a stack of int type
-    stack <int> stack;
-    
-    //writing 1 to 10 in stack
-    
-    for (int i=1;i<=10;i++){
-        stack.push(i);
+int main(){
+    //creating stack of integer, named as st
+    stack<int> st;
+
+    for(int i=1;i<=10;i++){
+        st.push(i);
+    }
+    cout<<"top element of stack- "<<st.top()<<endl;
+    cout<<"size of stack- "<<st.size()<<endl;
+    cout<<"is stack empty- "<<st.empty()<<endl;
+    cout<<"size of stack- "<<st.top()<<endl;
+
+    //it is not possible to traverse in stack to view
+    while(!st.empty()) {
+    cout<<st.top()<<endl;
+    st.pop();
     }
     
-    do {
-        cout<<stack.top()<<" "<<endl;
-    }while(!stack.empty());
-
-    if(stack.empty()==true){cout<<"Stack is empty";}
-    else {cout<<"Stack has some data";}
-
-
-
+    cout<<"size of stack- "<<st.size()<<endl;
+    cout<<"is stack empty- "<<st.empty()<<endl;
+    cout<<"size of stack- "<<st.top()<<endl;
 
 }
