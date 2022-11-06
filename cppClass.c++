@@ -1,4 +1,4 @@
-// Class can be represented in the form of
+// Class can be represented in the form of,
 // class ClassName {
 // access _ speci fi erl :
 // typel vat 1;
