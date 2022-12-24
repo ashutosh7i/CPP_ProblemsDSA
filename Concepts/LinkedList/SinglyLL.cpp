@@ -73,6 +73,32 @@ void InsertAtPosition(Node* &head,Node* &tail,int position,int dataToInsert){
 
 }
 
+    //code for Deletion
+    void Deletion(Node* &head,int position){
+        Node* temp = head;
+        //if deletion position 1 then simply make next's head = head;
+        if(position == 1){
+            head = head -> next;
+        }
+        //else trying to delete at position or last node;
+        else{
+            Node* current = head;
+            Node* previous = NULL;
+            
+            int count = 1;
+            while(count < position){  //reaching n-1 node
+                previous = current;
+                current = current -> next;
+                count++;
+            }
+
+            previous -> next = current -> next;
+
+            
+        }
+        
+    }
+
 int main(){
 
     Node* node1 = new Node();
@@ -96,5 +122,17 @@ int main(){
     Traverse(head);
 
     InsertAtPosition(head,tail,5,12);
+    Traverse(head);
+
+    Deletion(head,1);
+    Traverse(head);
+
+    Deletion(head,2);
+    Traverse(head);
+
+    Deletion(head,3);
+    Traverse(head);
+
+    Deletion(head,4);
     Traverse(head);
 }
